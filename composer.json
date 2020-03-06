@@ -1,0 +1,31 @@
+{
+  "name": "avency/shopware-frame",
+  "description": "Avency: Frame",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Avency GmbH"
+    }
+  ],
+  "require": {
+    "shopware/core": "*",
+    "shopware/administration": "*"
+  },
+  "extra": {
+    "shopware-plugin-class": "Avency\\Shopware\\Frame\\AvencyFrame",
+    "label": {
+      "de-DE": "Avency: Frame",
+      "en-GB": "Avency: Frame"
+    },
+    "description": {
+      "de-DE": "",
+      "en-GB": ""
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Avency\\Shopware\\Frame\\": "src/"
+    }
+  }
+}
